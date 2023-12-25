@@ -10,7 +10,7 @@ function CreateTodoButtom(){
  }=React.useContext(TodoContext)
 
     return (
-    <button className='btn-container' onClick={()=> setOpenModal(true)} type="">Create tarea</button>
+    <button className='btn-container' onClick={()=> setOpenModal(state=>!state)} type="">Create tarea</button>
     );   
   }
 

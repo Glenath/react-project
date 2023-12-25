@@ -1,0 +1,49 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-items: center;
+    
+    padding: 2rem;
+    border-radius: 2px;
+    max-width: 300px;
+    width: 90%;
+
+  
+}
+textarea{
+text-align: center;
+padding: 12px;
+height: 96px;
+margin: 10px 0;
+width: calc(100%-25px);
+}
+.TodoForm-container{
+    display: flex;
+    flex-direction: row;
+    place-content: center flex-end;
+}
+.TodoForm-buttom{
+    all: initial;
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 6rem;
+    height: 3rem !important;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.TodoForm-buttom--add{
+ 
+    background-color: #00f644;
+    color: black;
+   
+}
+.TodoForm-buttom--cancel{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+
+   
+}

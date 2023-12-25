@@ -28,9 +28,12 @@ const deleteTodo=(index)=>{
   saveTodos(newTodos)
 }
 const addTodo=(text)=>{
-  // const newTodos=[...todos];
-  // newTodos.splice(index, 1)
-  // saveTodos(newTodos)
+  const newTodos=[...todos];
+  newTodos.push({
+    text,
+    completed:false
+  })
+  saveTodos(newTodos)
 }
 
   return (

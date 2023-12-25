@@ -4,11 +4,13 @@ import { EmptyTodos } from '../EmptyTodos';
 import { Modal } from '../Modal';
 import { TodoContext } from '../TodoContext';
 import { TodoCounter } from '../TodoCounter';
+import { TodoForm } from '../TodoForm';
 import { TodoItem } from '../TodoItem';
 import { TodoList } from '../TodoList';
 import { TodoSearch } from '../TodoSearch';
 import { TodosError } from '../TodosError';
 import { TodosLoading } from '../TodosLoading';
+
 
 
 
@@ -47,7 +49,7 @@ function AppUi(){
      <CreateTodoButtom/>
      {openModal && (
           <Modal>
-          la funcionalidad wlefuweifuhwe
+          <TodoForm/>
         </Modal>
       )}
    
