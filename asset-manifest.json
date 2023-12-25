@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Glenath/react-project/static/css/main.e8c094bf.css",
+    "main.js": "/Glenath/react-project/static/js/main.c787dbba.js",
+    "index.html": "/Glenath/react-project/index.html",
+    "main.e8c094bf.css.map": "/Glenath/react-project/static/css/main.e8c094bf.css.map",
+    "main.c787dbba.js.map": "/Glenath/react-project/static/js/main.c787dbba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8c094bf.css",
+    "static/js/main.c787dbba.js"
+  ]
+}
