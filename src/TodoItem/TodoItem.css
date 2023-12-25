@@ -1,0 +1,26 @@
+.item-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center space-around;
+    border: 1px solid;
+    margin: 10px 0;
+}
+.item-icon{
+    width: 20rem;
+    text-align: center;
+    font-size: 26px;
+}
+.item-text{
+    width: 100rem;
+}
+.text--complete{
+    color: #959393;
+}
+.item--complete{
+ color: #00f644;
+}
+.icon--delete{
+
+}

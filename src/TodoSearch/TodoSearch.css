@@ -1,0 +1,14 @@
+.inputContent{
+    width: 26rem;
+    margin-bottom: 30px;
+    height: 46px;
+}
+.inputContent::placeholder{
+    color: #A5A5A5;
+    font-family: 'Prompt', sans-serif;
+    
+}
+.inputContent:focus{
+   outline-color: blueviolet;
+    
+}

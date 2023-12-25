@@ -1,0 +1,12 @@
+.btn-container{
+    
+    all: initial;
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 26rem;
+    height: 3rem !important;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
