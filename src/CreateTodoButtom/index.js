@@ -5,12 +5,11 @@ import './CreateTodoButtom.css';
 
 function CreateTodoButtom(){
   const {
-    addTodo,
     setOpenModal,
  }=React.useContext(TodoContext)
 
     return (
-    <button className='btn-container' onClick={()=> setOpenModal(state=>!state)} type="">Create tarea</button>
+    <button className='btn-container' onClick={()=> setOpenModal(state=>!state)} type="">Create task</button>
     );   
   }
 

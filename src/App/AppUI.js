@@ -24,13 +24,11 @@ function AppUi(){
     deleteTodo,
     searchedTodo,
     openModal, 
-    setOpenModal,
    
  }=React.useContext(TodoContext)
    return (
     <>
-     <div className='main-container'>
-       
+     <div className='main-container'>  
     <TodoCounter/>
     <TodoSearch />
     <TodoList>
@@ -44,7 +42,7 @@ function AppUi(){
                 onDelete={()=>deleteTodo(index)}
                 />))}
                 
-        </TodoList> 
+    </TodoList> 
    
      <CreateTodoButtom/>
      {openModal && (

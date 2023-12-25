@@ -7,8 +7,8 @@ function TodoCounter(){
 
     return (
     
-    <p className='counterContent'>Has completado de <b> {todoCompleted.length} </b>
-    de 
+    <p className='counterContent'>You have completed <b> {todoCompleted.length} </b>
+   out of
     <b> {todos.length} </b>
      TODOS</p>
     );   
